@@ -1,0 +1,177 @@
+body {
+    font-family: Roboto, Sans-serif;
+    /* padding-top:50px; para no superponer la navbar */
+    overflow-x:hidden;
+    color: #000000; 
+    padding: 90px;
+    background-color: rgba(255, 255, 255, 0.637);
+    
+}
+/* ----------------------------- nav */
+#nav {
+  z-index: 9999; /* sobre cualquier otro elemento */
+  opacity: 0.9;
+  border: 0;
+  background-color: #c02b93;
+  color: #c93d3d;
+  display: flex;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #0f0f0fec!important;
+    background-color: #c02b93 !important;
+}
+
+/* ----------------------------- COMPANY DESCRIPTION */
+#About {
+  display: flex;
+  padding: 30px;
+}
+/* ----------------------------- iconos */
+.iconos {
+  font-size:75px;
+  margin: 2px;
+  padding: 2px
+}
+#iconos {
+  color:#c02b93;
+  padding: 10px;
+}
+/* ----------------------------- PRODUCTS */
+#Products {
+  padding-top: 60px;
+}
+.panel {
+  transition: box-shadow 0.s;
+  border-radius: 0px;
+  border: 1px solid #c02b93;
+}
+.panel:hover {
+  box-shadow: 5px 5px 10px #000000;
+  
+}
+.panel-heading {
+  border-radius: 0px;
+  background-color: #d853b0;
+  color: #070606;
+}
+.panel-body {
+  color:#0c0e0d;
+}
+
+#btn-buy:hover {
+  background-color: #c02b93;
+  color: #060706;
+}
+/* ----------------------------- comentarios */
+#Contact {
+   padding: 30px;
+   color: #c02b93;
+}
+#link:hover {
+  color:#c02b93; 
+}
+#footer {
+  padding: 1.9px;
+  background-color:fff(190, 118, 118, 0.411);
+  margin: 9px; 
+}
+.smallFont {
+  font-size: 1px;
+}
+
+#ScrollUp {
+  border-radius: 100%;
+  width: 30px !important;
+  height: 30px !important;
+  background-color: rgba(0,0,0,0.5);
+  color: #c02b93;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle !important;
+  margin: 111px !important;
+  padding: 0px !important;
+}
+
+/* ----------------------------- OTHER */
+
+.alert-danger, .alert-success {
+  position: fixed;
+  z-index: 9998; /* sobre cualquier otro elemento */
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+}
+/* ----------------------------- ANIMACIONES */
+
+.slideUp {
+  animation-name: slide;
+  animation-duration: 1.2s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+.container {
+  max-width:10000px;
+  display:flex;
+  text-align: left;
+  
+}
+img {
+  align-self: baseline;
+  padding: 8px;
+}
+
+.gridInfo {
+  background: #fff;
+  grid-area: gridInfo;
+}
+
+h3 { 
+  margin: 11px; 
+  padding: 20px;
+  font-size: 20px;
+}
+.iconos {
+    font-size:70px;
+    margin: 12px;
+    padding: 9px;
+}
+h5 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 19px;
+  color: #ac4489; 
+  margin: 13px;
+  padding: 9px;
+}
+h4{
+  color: #c02b93;
+  text-align: center;
+  font-size: 41px;
+  font-family: cursive;
+  font-style:italic; 
+}
+h2{
+  color: #c02b93;
+  text-align: center;
+  font-size: 36px;
+}
+p{
+  margin: 2px; 
+  padding: 6px;
+  text-align: center;
+  color: #c02b93;
+}
+
+
+

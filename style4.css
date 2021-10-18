@@ -1,0 +1,87 @@
+body {
+    font-family: Roboto, Sans-serif;
+    /* padding-top:50px; para no superponer la navbar */
+  overflow-x:hidden;
+    color: #000000;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+}
+/* ----------------------------- nav */
+#nav {
+  z-index: 9999; /* sobre cualquier otro elemento */
+  opacity: 0.9;
+  border: 0;
+  background-color: #c02b93;
+  color: #000000;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000000!important;
+    background-color: #c02b93 !important;
+}
+#footer {
+    padding: 5px;
+    background-color:#fff;
+    margin: auto; 
+
+  }
+  .smallFont {
+    font-size:11px;
+  }
+  
+  #ScrollUp {
+    border-radius: 100%;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: rgba(0,0,0,0.5);
+    color: #080707;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle !important;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  h2 {
+      color: #c02b93;
+      margin-top: 70px;
+      font-size: 49px;
+      font-family: fantasy;
+      padding: 0.1px;
+  }
+  h4{
+    color: #000000;
+    margin: 19px;
+    font-size: 25px;
+  }
+  label{
+      font-size: 17px;
+      margin-top: 9px;
+  }
+  input{
+      font-size: 20px;
+      margin-top: 10px;
+  }
+  .iconos{
+        font-size:70px;
+        margin: 2px;
+        padding: 2px;
+        color: #c02b93;
+  }
+  h5 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 19px;
+    color: #ac4489; 
+  }
+  p{
+    margin-right: 60px;
+    color: #c02b93;
+}
+#footer {
+    padding: 0.9px;
+    background-color:fff;
+    margin-top: 1px; 
+}

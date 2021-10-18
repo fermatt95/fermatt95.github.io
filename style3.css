@@ -1,0 +1,73 @@
+body {
+    font-family: Roboto, Sans-serif;
+    /* padding-top:50px; para no superponer la navbar */
+  overflow-x:hidden;
+    color: #000000;
+}
+#nav {
+    z-index: 9999; /* sobre cualquier otro elemento */
+    opacity: 0.9;
+    border: 0;
+    background-color: #c02b93;
+    color: #000000;
+  }
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #0f0f0fe8!important;
+    background-color: #c02b93 !important;
+}
+.posts {
+    display: flex;
+
+}
+section {
+    margin: 50px;
+    padding: 80px;
+}
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.8vw;
+    color: #ac4489; 
+    margin: 20px;
+    padding: 10px;
+}
+#footer {
+    padding: 0.9px;
+    background-color:fff;
+    margin: 1px; 
+}
+.smallFont {
+    font-size:11px;
+ }
+  
+#ScrollUp {
+    border-radius: 100%;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: rgba(0,0,0,0.5);
+    color: #c02b93;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+h5 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 19px;
+    color: #ac4489; 
+    margin: 0px;
+    padding: 0.9px;
+}
+.iconos {
+    font-size:70px;
+    margin: 2px;
+    padding: 2px;
+}
+p{
+    margin-right: 60px; 
+    text-align: center;
+    color: #c02b93;
+}

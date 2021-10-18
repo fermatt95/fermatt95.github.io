@@ -1,0 +1,204 @@
+body {
+    font-family: Roboto, Sans-serif;
+    /* padding-top:50px; para no superponer la navbar */
+  overflow-x:hidden;
+    color: #000000;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+}
+/* ----------------------------- nav */
+#nav {
+  z-index: 9999; /* sobre cualquier otro elemento */
+  opacity: 0.9;
+  border: 0;
+  background-color: #c02b93;
+  color: #000000;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #0f0f0fcc!important;
+    background-color: #c02b93 !important;
+}
+/* ----------------------------- carousel */
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: 0px;
+}
+.carousel-control.right, .carousel-control.left {
+  color: #c02b93;
+}
+.carousel-indicators li {
+  border-color: #c02b93;
+}
+.carousel-indicators li.active {
+  background-color: #c02b93;
+}
+/* ----------------------------- COMPANY DESCRIPTION */
+#About {
+  display: flex;
+  padding: 30px;
+}
+/* ----------------------------- iconos */
+.iconos {
+  font-size:75px;
+}
+#iconos {
+  color:#c02b93;
+  padding: 30px;
+}
+/* ----------------------------- PRODUCTS */
+#Products {
+  padding-top: 60px;
+}
+.panel {
+  transition: box-shadow 0.s;
+  border-radius: 0px;
+  border: 1px solid #c02b93;
+}
+.panel:hover {
+  box-shadow: 5px 5px 10px #000000;
+
+}
+.panel-heading {
+  border-radius: 0px;
+  background-color: #d853b0;
+  color: #070606;
+}
+.panel-body {
+  color:#0c0e0d;
+}
+#btn-buy {
+  background-color: #924f7e;
+  color: #110f0f;
+  border-radius: 0px;
+}
+#btn-buy:hover {
+  background-color: #c02b93;
+  color: #060706;
+}
+/* ----------------------------- comentarios */
+#Contact {
+   padding: 30px;
+   color: #c02b93;
+}
+#link:hover {
+  color:#c02b93; 
+}
+ b/* ----------------------------- footer */
+
+#footer {
+  padding: 5px;
+  background-color:#fff;
+  margin: auto; 
+}
+.smallFont {
+  font-size:11px;
+}
+
+#ScrollUp {
+  border-radius: 100%;
+  width: 40px !important;
+  height: 40px !important;
+  background-color: rgba(0,0,0,0.5);
+  color: #080707;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+/* ----------------------------- OTHER */
+.logo {
+  font-size: 100px;
+}
+.putColor {
+  color:#68abc0;
+}
+.red {
+  color: #ff0000;
+}
+.alert-danger, .alert-success {
+  position: fixed;
+  z-index: 9998; /* sobre cualquier otro elemento */
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+  .logo {
+    font-size: 50px !important;
+  }
+}
+/* ----------------------------- ANIMACIONES */
+.slideAnim {
+  visibility:hidden;
+}
+.slideUp {
+  animation-name: slide;
+  animation-duration: 1.2s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+.grid {
+  position: relative;
+  top: 150px;
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 80px auto 80px;
+  grid-gap: 20px;
+  grid-template-areas:
+      "gridNav gridNav gridNav"
+      "gridInfo gridInfo gridLateral";
+}
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+.gridInfo {
+  background: #665360;
+  grid-area: gridInfo;
+}
+
+h2{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  color: #c02b93;
+}
+h4{ 
+  font-family:Verdana;
+  font-size: 23px;
+  color:#000000;
+  text-align: center;
+}
+h6{
+  font-family:Verdana;
+  font-size: 20px;
+  color:#0206f1;
+  text-align: center;
+  text-decoration-line: underline;
+}
+p{
+  margin-right: 80px; 
+  text-align: center;
+  color: #c02b93;
+}
